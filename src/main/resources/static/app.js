@@ -40,7 +40,7 @@ var app = (function () {
                 var point = JSON.parse(eventbody.body);
 		console.log('Parsed JSON point:', point);
 		addPointToCanvas(point);
-		alert('Aviso', point);
+		
             });
         });
     };
